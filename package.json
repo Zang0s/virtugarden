@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.1.1",
+    "bcryptjs": "^2.4.3",
+    "curl": "^0.1.4",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.2",
+    "next": "^15.1.2",
+    "next-auth": "^4.24.11",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "stripe": "^17.5.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/jsonwebtoken": "^9.0.7",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

@@ -1,7 +1,8 @@
 "use client";
+
 import Menu from "@/components/Menu";
 import { useCart } from "../../context/CartContext";
-import { useRouter } from "next/router";
+import { useRouter } from "next/navigation";
 
 
 export default function CartPage() {
